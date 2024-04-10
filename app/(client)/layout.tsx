@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="min-h-screen w-full px-20 py-0">
+        <div className="min-h-screen w-full px-20 pt-0 pb-10">
           <Navbar />
           {children}
           <ScrollToTop />

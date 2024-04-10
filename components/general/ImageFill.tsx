@@ -12,7 +12,7 @@ const ImageFill: React.FunctionComponent<IImageFillProps> = ({
 }) => {
   return (
     <>
-      <Image src={imgUrl} alt={imgAlt} sizes="(max-width: 768px) 100vw, 33vw" fill priority />
+      <Image src={imgUrl} alt={imgAlt} style={{objectFit: "cover"}} sizes="(max-width: 768px) 100vw, 33vw" fill priority />
     </>
   );
 };
